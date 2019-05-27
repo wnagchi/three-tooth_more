@@ -1,0 +1,120 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<SysMode>
+  <init CameraX="0"  CameraY="10"  CameraZ="400" bgcolor="0xaa0000" bgImage="" skyBox="false" skyBoxSize="100" skyBox1="mode/posx.jpg" skyBox2="mode/negx.jpg" skyBox3="mode/posy.jpg" skyBox4="mode/negy.jpg" skyBox5="mode/posz.jpg" skyBox6="mode/negz.jpg">init</init>
+  <Scene x="0" y="-0" z="0" Rx="0" Ry="0" Rz="0"  SW="1" SH="1" SD="1" CtrlMin_X="-1"  CtrlMax_X="-1"  CtrlMin_Y="-1"  CtrlMax_Y="-1"  CtrlMin_Z="300"  CtrlMax_Z="20000">Scene</Scene>
+  <Material color="0xc5bfbf"  emissive="0xdfd2cc" specular="0x111111" Reservedcolor="0x000000" normalMap=""  emissiveMap="" specularMap="" shininess="30" ReserveValue="true" skinning="false" Alpha="1" DoubleSide="2" aoMap="" envMap="false" reflectivity="1" refractionRatio="0.98">code_init</Material>
+<!--  <Pic x="0" y="10" z="0" Rx="0" Ry="0" Rz="0" DW="5" DH="5" DD="35" iw="1" ih="1"  img="mode/雷诺/1024MS2.png" codenum="code_0003" renderDepth="null" >FLoor_1</Pic>-->
+
+  <!--<Wall x="0" y="100" z="100" Rx="0" Ry="0" Rz="0" DW="500" DH="300" DD="200" img="mode/upcera/ping.jpg"  iw="1" ih="1" codenum="code_0002" renderDepth="5" >Wall_1</Wall>-->
+
+  <!--<Mode x="0" y="0" z="0" Rx="0" Ry="90" Rz="0" SW="1" SH="1" SD="1" mm="1" hw="0" fire="0" weight="2" Ltype="2" img="mode/upcera/洗手台.jpg" url="mode/upcera/洗手台.zlf" codenum="code_0004" renderDepth="1" castShadow="true" Reflective="false" ReflectiveAlpha="0.1">t_chair_11</Mode>-->
+<!--  <Light x="0" y="0" z="0" color="0x202020"  type="AmbientLight">Light_1</Light>
+  <Light x="50" y="200" z="100"  color="0xdfebff"  inten="1" type="DirectionLight">Light_2</Light>
+  <Light x="0" y="800" z="5100"  color="0x676767"  inten="1" type="DirectionLight">Light_2</Light>-->
+  <!--<Light x="0" y="0" z="40"  color="0xffffff"  inten="1" showbox="0" distance="0" type="PointLight">Light_4</Light>-->
+  
+  <!--<Light x="4000" y="800" z="-5100"  color="0x676767"  inten="1" type="DirectionLight">Light_2</Light>-->
+  
+   <Light x="0" y="0" z="0" color="0xe1e1e1"  type="AmbientLight">Light_1</Light>
+  <!--<Light x="0" y="0" z="440"  color="0xe1e1e1"  inten="0.8" showbox="0" distance="800" type="PointLight">Light_4</Light>-->
+  <Light x="0" y="500" z="500"  color="0xbbb7b7"  inten="1" type="DirectionLight">Light_2</Light>
+  <!--<Light x="50" y="200" z="-100"  color="0xdfebff"  inten="1" type="DirectionLight">Light_2</Light>-->
+<!-- <Light x="4000" y="800" z="-5100"  color="0xe1e1e1"  inten="1" type="DirectionLight">Light_3</Light>-->
+  <!--<Light x="0" y="800" z="5100"  color="0x676767"  inten="1" type="DirectionLight">Light_2</Light>-->
+  <!--<Mode x="0" y="0" z="0" Rx="0" Ry="90" Rz="0" SW="1" SH="1" SD="1" mm="1" hw="0" fire="0" weight="2" Ltype="2" img="pump/pump_metalreflect.jpg" url="mode/test/内测1.zlf" codenum="code_0001" renderDepth="1" castShadow="true" Reflective="false" ReflectiveAlpha="0.1">t1</Mode>-->
+  <!--<Mode x="-20" y="0" z="0" Rx="0" Ry="90" Rz="0" SW="1" SH="1" SD="1" mm="1" hw="0" fire="0" weight="2" Ltype="2" img="mode/test/内测1.jpg" url="mode/test/022.zlf" codenum="code_0001" renderDepth="1" castShadow="true" Reflective="false" ReflectiveAlpha="0.1">t2</Mode>-->
+  
+  
+
+  
+ <!--风扇--> 
+ <!-- <Mode x="-0" y="-30" z="0" Rx="0" Ry="0" Rz="0" SW="0.3" SH="0.3" SD="0.3" mm="1" hw="0" fire="0" weight="2" Ltype="2" img="textures/pump_body.jpg" url="mode/test/电源.zlf" codenum="code_0006" renderDepth="1" castShadow="true" Reflective="false" ReflectiveAlpha="0.1">fan1</Mode> 
+<Mode x="-0" y="-30" z="0" Rx="0" Ry="0" Rz="0" SW="0.3" SH="0.3" SD="0.3" mm="1" hw="0" fire="0" weight="2" Ltype="2" img="textures/pump_gears.jpg" url="mode/test/后面.zlf" codenum="code_0006" renderDepth="1" castShadow="true" Reflective="false" ReflectiveAlpha="0.1">fan2</Mode> 
+ <Mode x="-0" y="-30" z="0" Rx="0" Ry="0" Rz="0" SW="0.3" SH="0.3" SD="0.3" mm="1" hw="0" fire="0" weight="2" Ltype="2" img="textures/pump_gears.jpg" url="mode/test/支撑.zlf" codenum="code_0006" renderDepth="1" castShadow="true" Reflective="false" ReflectiveAlpha="0.1">fan3</Mode>
+ <Mode x="-0" y="-30" z="0" Rx="0" Ry="0" Rz="0" SW="0.3" SH="0.3" SD="0.3" mm="1" hw="0" fire="0" weight="2" Ltype="2" img="textures/pump_gears.jpg" url="mode/test/轴2.zlf" codenum="code_0006" renderDepth="1" castShadow="true" Reflective="false" ReflectiveAlpha="0.1">fan4</Mode> 
+ <Mode x="-0" y="-30" z="0" Rx="0" Ry="0" Rz="0" SW="0.3" SH="0.3" SD="0.3" mm="1" hw="0" fire="0" weight="2" Ltype="2" img="textures/pump_gears.jpg" url="mode/test/轴1.zlf" codenum="code_0006" renderDepth="1" castShadow="true" Reflective="false" ReflectiveAlpha="0.1">fan5</Mode>
+ <Mode x="12" y="10" z="-5" Rx="0" Ry="0" Rz="0" SW="0.3" SH="0.3" SD="0.3" mm="1" hw="0" fire="0" weight="2" Ltype="2" img="textures/pump_gears.jpg" url="mode/test/扇叶.zlf" codenum="code_0006" renderDepth="1" castShadow="true" Reflective="false" ReflectiveAlpha="0.1">fan6</Mode>
+ <Mode x="-0" y="-30" z="0" Rx="0" Ry="0" Rz="0" SW="0.3" SH="0.3" SD="0.3" mm="1" hw="0" fire="0" weight="2" Ltype="2" img="textures/pump_gears.jpg" url="mode/test/前面.zlf" codenum="code_0006" renderDepth="1" castShadow="true" Reflective="false" ReflectiveAlpha="0.1">fan7</Mode> 
+ <Mode x="12" y="34" z="-12" Rx="0" Ry="0" Rz="0" SW="0.3" SH="0.3" SD="0.3" mm="1" hw="0" fire="0" weight="2" Ltype="2" img="textures/pump_gears.jpg" url="mode/test/螺丝.zlf" codenum="code_0006" renderDepth="1" castShadow="true" Reflective="false" ReflectiveAlpha="0.1">fan8</Mode>-->  
+ <!--<Mode x="38" y="0" z="-6" Rx="0" Ry="0" Rz="0" SW="0.3" SH="0.3" SD="0.3" mm="1" hw="0" fire="0" weight="2" Ltype="2" img="textures/pump_gears.jpg" url="mode/test/螺丝.zlf" codenum="code_0006" renderDepth="1" castShadow="true" Reflective="false" ReflectiveAlpha="0.1">fan9</Mode>-->  
+ <!--<Mode x="-15" y="1" z="-6" Rx="0" Ry="0" Rz="0" SW="0.3" SH="0.3" SD="0.3" mm="1" hw="0" fire="0" weight="2" Ltype="2" img="textures/pump_gears.jpg" url="mode/test/螺丝.zlf" codenum="code_0006" renderDepth="1" castShadow="true" Reflective="false" ReflectiveAlpha="0.1">fan10</Mode>-->
+
+  <Mode x="38" y="0" z="-6" Rx="0" Ry="0" Rz="0" SW="1" SH="1" SD="1" mm="1" hw="0" fire="0" weight="2" Ltype="2" img="textures/pump_gears.jpg" url="mode/test/螺丝.zlf" codenum="code_0006" renderDepth="1" castShadow="true" Reflective="false" ReflectiveAlpha="0.1">fan9</Mode>
+
+
+
+
+
+
+  <!--<Animation  type=".position" times="0, 1, 2" values="0, -100, 20, 0, -50, 10, 0, -30, 0" Direction="0,1,0">fan4</Animation>
+  <Animation  type=".position" times="1, 2, 3" values="0, -100, 20, 0, -50, 10, 0, -30, 0" Direction="0,1,0">fan5</Animation>
+  <Animation  type=".position" times="2, 3, 4" values="0, -100, 20, 0, -50, 10, 12, 10, -5" Direction="0,1,0">fan6</Animation>
+  <Animation  type=".quaternion" times="4,4.2,4.5,4.5001,4.8,5" values="0,180,360,0,180,360" Direction="0,0,1">fan6</Animation>
+  <Animation  type=".position" times="4, 5, 6" values="0, -100, 20, 0, -50, 10, 0, -30, 0" Direction="0,1,0">fan7</Animation>
+  
+  <Animation  type=".position" times="5, 6, 7" values="0, -100, 20, 0, -50, 10, 12, 34, -8" Direction="0,1,0">fan8</Animation>
+  <Animation  type=".quaternion" times="6,6.2,6.5,6.5001,6.8,7" values="0,180,360,0,180,360" Direction="0,0,-1">fan8</Animation>
+  <Animation  type=".position" times="7, 7.5, 8" values="0, -100, 20, 0, -50, 10, 12, 34, -12" Direction="0,1,0">fan8</Animation>
+  <Animation  type=".quaternion" times="7,7.2,7.5,7.5001,7.8,8" values="0,180,360,0,180,360" Direction="0,0,-1">fan8</Animation>-->
+  
+  
+  <!--<Animation  type=".position" times="6, 7, 8" values="0, -100, 20, 0, -50, 10, 38, 0, -6" Direction="0,1,0">fan9</Animation>
+  <Animation  type=".quaternion" times="7,7.2,7.5,7.5001,7.8,8" values="0,180,360,0,180,360" Direction="0,0,1">fan9</Animation>
+  <Animation  type=".position" times="8, 8.5, 9" values="0, -100, 20, 0, -50, 10, 38, 0, -2" Direction="0,1,0">fan9</Animation>
+  <Animation  type=".quaternion" times="8,8.2,8.5,8.5001,8.8,9" values="0,180,360,0,180,360" Direction="0,0,1">fan9</Animation>-->
+  
+  <!--<Animation  type=".position" times="7, 8, 9" values="0, -100, 20, 0, -50, 10, -15, 1, -6" Direction="0,1,0">fan10</Animation>
+  <Animation  type=".quaternion" times="8,8.2,8.5,8.5001,8.8,9" values="0,180,360,0,180,360" Direction="0,0,1">fan10</Animation>
+  <Animation  type=".position" times="9, 9.5, 10" values="0, -100, 20, 0, -50, 10, -15, 1, -2" Direction="0,1,0">fan10</Animation>
+  <Animation  type=".quaternion" times="9,9.2,9.5,9.5001,9.8,10" values="0,180,360,0,180,360" Direction="0,0,1">fan10</Animation>-->
+  
+  
+  
+  
+  <!--<Animation  type=".quaternion" times="10,13,15,15.001,18,21" values="0,180,360,0,180,360" Direction="0,0,1">fan6</Animation>-->
+
+
+  <!--<Animation  type=".position" times="1, 2, 3" values="0, 0, 0, -15,15, 0, -30,30,0" Direction="0,1,0">fan9</Animation>
+  <Animation  type=".quaternion" times="1,1.2,1.5,1.5001,1.8,2,2.0001,2.2,2.5,2.5001,2.8,3" values="0,180,360,0,180,360,0,180,360,0,180,360" Direction="0,0,1">fan9</Animation>-->
+  <!--<Animation  type=".scale" times="1, 2, 3" values="1, 1, 1, 1.5,1.5, 1.5, 1, 1, 1" Direction="">fan9</Animation>
+  <Animation  type=".material.color" times="1, 2, 3" values="255, 0, 0, 255, 1, 0, 0, 0, 1" Direction="">fan9</Animation>
+  <Animation  type=".material.opacity" times="1, 2, 3" values="1, 0, 1" Direction="">fan9</Animation>-->
+  <!--<Animation  type=".position" times="8, 8.5, 9" values="0, -100, 20, 0, -50, 10, 38, 0, -2" Direction="0,1,0">fan9</Animation>
+  <Animation  type=".quaternion" times="8,8.2,8.5,8.5001,8.8,9" values="0,180,360,0,180,360" Direction="0,0,1">fan9</Animation>-->
+
+
+
+  <Material color="0x949493" emissive="0x666666"  specular="0x888888" Reservedcolor="0x000000" normalMap=""  emissiveMap="" specularMap="" shininess="30" ReserveValue="false" skinning="false" Alpha="1" DoubleSide="2" aoMap="" envMap="false" reflectivity="1" refractionRatio="0.48">code_0010</Material>
+
+  <Material color="0x949493" emissive="0x666666"  specular="0x888888" Reservedcolor="0x000000" normalMap=""  emissiveMap="" specularMap="" shininess="30" ReserveValue="false" skinning="false" Alpha="1" DoubleSide="2" aoMap="" envMap="false" reflectivity="1" refractionRatio="0.48">code_0006</Material>
+  
+  <!--
+ Material 
+  color  基础颜色
+  emissive  漫反射颜色
+  specular  镜面反射颜色
+  Reservedcolor 预留颜色
+  
+  normalMap 法线贴图的纹理
+  emissiveMap 环境地图
+  specularMap 镜面反射贴图
+  
+  shininess 高光强度 默认30
+  ReserveValue 预留值
+  skinning 蒙皮
+  Alpha 透明度 
+  DoubleSide 双面材质
+  
+  aoMap 预留贴图
+  envMap 是否使用反光贴图 
+  reflectivity 预留
+  refractionRatio 反光贴图透明度
+  
+  -->
+  
+  
+ 
+   <!-- <Psarticle x="0" y="0" z="0" Rx="0" Ry="0" Rz="0" velx="0" vely="12" velz="0" tpx="0" tpy="0" tpz="0" img="mode/红线.png" size="100" count="5" dpx="0" dpy="0" dpz="0" color="0xffffff" transparent="true" Alpha="1" ptype="96">Psarticle_15</Psarticle>
+<Psarticle x="-50" y="-100" z="-50" Rx="-0" Ry="0" Rz="0" velx="0" vely="1" velz="0" tpx="0" tpy="0" tpz="0" img="mode/红线.png" size="100" count="1000" dpx="0" dpy="0" dpz="0" color="0xff0000" transparent="true" Alpha="1" ptype="2">Psarticle_0</Psarticle>-->
+ 
+</SysMode>

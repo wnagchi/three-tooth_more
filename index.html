@@ -1,0 +1,508 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="utf-8" />
+		<link rel="stylesheet" type="text/css" href="css/arc.css" />
+		
+		
+		<title>牙医虚拟实验室</title>
+	</head>
+	 <style>
+   
+   
+ 
+    .dropdown {
+    
+     
+      width: 100px;
+      height: 42px;
+      float: left;line-height: 42px;text-align: center;background-image: url(../img/border_02.png);background-position: right;background-repeat: no-repeat;float: left;
+display: inline;
+    }
+    .dropdown-content {
+      display: none;
+      position: absolute;
+      min-width: 100px;
+    }
+    .dropdown-content a {
+      background-color: #535353;
+      color: #FFFFFF;
+    }
+    .dropdown-content a:hover {
+      background-color: #282828;
+    }
+    .dropdown:hover .dropdown-content {
+      display: block;
+    }
+    ul > li:hover {
+      background-color: #282828;
+    }
+  </style>
+	<!--<script  language="JavaScript">
+		var m_onclick_1=true;
+		function onclick_1(){
+			if (m_onclick_1){
+			 #3a3a3a
+			}else{
+				#535353//背景颜色
+			}
+		}
+	</script>-->
+	
+	
+	<body style="margin: 0px;padding: 0px; background-color: #191919; overflow: hidden;">
+			<div class="dibu"></div>
+	<div id="dh">
+	<ul class='ul'>
+		<li class='li'><a class="a" href="#" style="text-decoration: none;">
+		首页</button></a></li>
+		<li  class="dropdown"><a class="dropdown-btn" href="#">模式选择</a>
+        <div class="dropdown-content">
+        <a href="#">1123</a>
+        <a href="#">我的</a>
+        <a href="#">链接</a>
+      </div>
+        </li>
+		<li class="li"><a class="a" href="#">工具</a></li>
+		<li class="li"><a class="a" href="#">设置</a></li>
+		<li class="li"><a class="a" href="#">帮助</a></li>
+	</ul>
+	</div>
+	
+	<div id="zuo">
+		<ul class="ul">
+			<li><a class="a1" title="tnc-01"><img src="img/gongju/8.png"></a></li>
+			<li><a class="a1"  title="tnc-02"><img src="img/gongju/7.png"></a></li>
+			<li><a class="a1"  title="tnc-03"><img src="img/gongju/6.png"></a></li>
+			<li><a class="a1"  title="tnc-04"><img src="img/gongju/5.png"></a></li>
+			<li><a class="a1"  title="tnc-05"><img src="img/gongju/4.png"></a></li>
+			<li><a class="a1"  title="tnc-06"><img src="img/gongju/3.png"></a></li>
+			<li><a class="a1"  title="tnc-07"><img src="img/gongju/1.png"></a></li>
+			<li><a class="a1"  title="tnc-08"><img src="img/gongju/2.png"></a></li>
+			</ul>
+	</div>
+	<div style="width: 350;height: 180px;padding: 0px;margin: 0px;float: left;
+		position: absolute;left: 60px;top: 60px;z-index: 11;">
+		<div class="tz">
+			<span>Adjust</span>
+			<br />
+			<span>调整</span>
+		</div>
+		<div class="tz1">
+			<img src="img/fangxiang_06.png" />
+		</div>
+		<div id="tz2">
+			<ul style="width: 120px;height: 35px;margin-top:5px;margin-left:-39px;">
+		<li class="li2"><a href="#" title="移动"><img src="img/shubiao.png"></a></li>
+		<li class="li2"><a href="#" title="选中"><img src="img/shou.png"></a>	</li>
+		<li class="li2"><a href="#" title="重置"><img src="img/chongzhi.png"></a>	</li>
+			</ul>
+			
+		</div>
+	</div>
+	<div style="float: right;position:fixed;top: 42px;right:0;z-index: 10;">
+	<div style="width: 38px; height: 716px;border: 1px solid #191919;border-top: 1;
+		background-color: #535353;float: left;padding: 0px;margin: 0px;">
+	</div>
+	
+	<div style="width: 291px;height: 716px;border: #0f0f0f 1px solid;border-top: 0;
+		background-color: #535353;float:left;padding: 0px;margin: 0px;float: left;">
+	<div id="sh">
+		<div style="width: 291px;height: 30px;
+			background-color: #3a3a3a;float: left;line-height: 30;">
+			<ul class="ul">
+				<li class="li1" onclick="onclick_1()"><a class="a2" href="#" >导向</a></li>
+				<li class="li1"><a class="a2" href="#" >择齿</a></li>
+				<li class="li1"><a class="a2" href="#" >微观</a></li>
+		    </ul>
+		    <img style="float: right;margin-top: 10px;margin-right: 2px;" src="img/shouqi.png" />
+	    </div>
+	    <div><!--上部的div-->
+	    <!--	导向-->
+	    	<!--<div class="sh">aa</div>
+	    	<div class="sh" style="background-image: url(img/shizi.png);
+	    		background-position: center;background-repeat: no-repeat;">
+	    		<div class="sh2">1</div>
+	    		<div class="sh2">2</div>
+	    		<div class="sh2">3</div>
+	    		<div class="sh2">4</div>
+	    	</div>
+	    	<div class="sh">
+	    		<span style="width: 125px;height: 20px;line-height: 20px;float: left;text-align: left;">
+	    			<a href="###">刀具型号</a></span>
+	    		<table style="width:125px ;height: 50px;line-height: 25px;">
+	    			<tr>
+	    				<td>111</td>
+	    				<td>222</td>
+	    			</tr>
+	    			<tr>
+	    				<td>333</td>
+	    				<td>444</td>
+	    			</tr>
+	    		</table>
+	    	</div>
+	    	<div class="sh">dd</div>-->
+	    	<!--择齿-->
+	    	<div style="width: 290px;height: 220px;overflow: auto;">
+	    		<table>
+	    			<tr>
+	    				<td><a style="float: left;margin-left: 5px;">
+	    			<img src="img/yachi/sz1.png"/></a></td>
+	    				<td><a style="float: left;margin-left: 5px;">
+	    			<img src="img/yachi/sz2.png"/></a></td>
+	    				<td><a style="float: left;margin-left: 5px;"> 
+	    			<img src="img/yachi/sz3.png"/></a></td>
+	    				<td><a style="float: left;margin-left: 5px;">
+	    			<img src="img/yachi/sz4.png"/></a></td>
+	    				<td><a style="float: left;margin-left: 5px;"> 
+	    			<img src="img/yachi/sz5.png"/></a></td>
+	    				<td><a style="float: left;margin-left: 5px;">
+	    			<img src="img/yachi/sz6.png"/></a></td>
+	    				<td><a style="float: left;margin-left: 5px;"> 
+	    			<img src="img/yachi/sz7.png"/></a></td>
+	    			</tr>
+	    			<tr>
+	    				<td><a style="float: left;margin-left: 5px;margin-top: 5px;">
+	    			<img src="img/yachi/sy1.png"/></a></td>
+	    				<td><a style="float: left;margin-left: 5px;margin-top: 5px;">
+	    			<img src="img/yachi/sy2.png"/></a></td>
+	    				<td><a style="float: left;margin-left: 5px;margin-top: 5px;"> 
+	    			<img src="img/yachi/sy3.png"/></a></td>
+	    				<td><a style="float: left;margin-left: 5px;margin-top: 5px;">
+	    			<img src="img/yachi/sy4.png"/></a></td>
+	    				<td><a style="float: left;margin-left: 5px;margin-top: 5px;"> 
+	    			<img src="img/yachi/sy5.png"/></a></td>
+	    				<td><a style="float: left;margin-left: 5px;margin-top: 5px;">
+	    			<img src="img/yachi/sy6.png"/></a></td>
+	    				<td><a style="float: left;margin-left: 5px;margin-top: 5px;"> 
+	    			<img src="img/yachi/sy7.png"/></a></td>
+	    			</tr>
+	    			<tr>
+	    				<td><a style="float: left;margin-left: 5px;margin-top: 5px;">
+	    			<img src="img/yachi/xy1.png"/></a></td>
+	    				<td><a style="float: left;margin-left: 5px;margin-top: 5px;">
+	    			<img src="img/yachi/xy2.png"/></a></td>
+	    				<td><a style="float: left;margin-left: 5px;margin-top: 5px;"> 
+	    			<img src="img/yachi/xy3.png"/></a></td>
+	    				<td><a style="float: left;margin-left: 5px;margin-top: 5px;">
+	    			<img src="img/yachi/xy4.png"/></a></td>
+	    				<td><a style="float: left;margin-left: 5px;margin-top: 5px;"> 
+	    			<img src="img/yachi/xy5.png"/></a></td>
+	    				<td><a style="float: left;margin-left: 5px;margin-top: 5px;">
+	    			<img src="img/yachi/xy6.png"/></a></td>
+	    				<td><a style="float: left;margin-left: 5px;margin-top: 5px;"> 
+	    			<img src="img/yachi/xy7.png"/></a></td>
+	    			</tr>
+	    			<tr>
+	    				<td><a style="float: left;margin-left: 5px;margin-top: 5px;">
+	    			<img src="img/yachi/xy1.png"/></a></td>
+	    				<td><a style="float: left;margin-left: 5px;margin-top: 5px;">
+	    			<img src="img/yachi/xy2.png"/></a></td>
+	    				<td><a style="float: left;margin-left: 5px;margin-top: 5px;"> 
+	    			<img src="img/yachi/xy3.png"/></a></td>
+	    				<td><a style="float: left;margin-left: 5px;margin-top: 5px;">
+	    			<img src="img/yachi/xy4.png"/></a></td>
+	    				<td><a style="float: left;margin-left: 5px;margin-top: 5px;"> 
+	    			<img src="img/yachi/xy5.png"/></a></td>
+	    				<td><a style="float: left;margin-left: 5px;margin-top: 5px;">
+	    			<img src="img/yachi/xy6.png"/></a></td>
+	    				<td><a style="float: left;margin-left: 5px;margin-top: 5px;"> 
+	    			<img src="img/yachi/xy7.png"/></a></td>
+	    			</tr>
+	    		</table>
+	    		<img src="img/chaoshang.png" style="position: relative;bottom: 10px;left: 260px;"/>
+	    		
+	    		
+	    		
+	    	</div>
+	    	
+	    	<!--微观-->
+	    	<!--<div style="width: 290px;height: 220px;background-color: #000000;padding-top: 20px;">
+	    		
+	    	</div>-->
+	    </div>
+	    
+	    <div>
+	    	
+	    </div>
+	
+	</div>	
+	<div id="zh">
+		<div style="width: 291px;height: 30px;
+			background-color: #3a3a3a;float: left;">
+			<ul class="ul">
+				<li class="li1" onclick="onclick_1()"><a class="a2" href="#" >练习</a></li>
+				<li class="li1"><a class="a2" href="#" >教学</a></li>
+				<li class="li1"><a class="a2" href="#" >考试</a></li>
+			</ul>
+			<img style="margin-top: 5px;margin-left: 75px;" src="img/dengpao1.png" />
+			<img style="float: right;margin-top: 10px;margin-right: 2px;" src="img/shouqi.png" />
+	</div>
+	<!--练习-->
+	<!--<div style="width: 291px;height:178px ;padding-top: 5px;text-align: center;
+		overflow: auto;scrollbar-dark-shadow-color:#222222">
+		<table class="tab">
+			<tr>
+				<td class="td">01.#21.唇侧.切1/3.近中1/3 TNC_01</td>
+			</tr>
+			<tr>
+				<td class="td">02.TNC_01 #21.唇侧.切1/3.近中1/3</td>
+			</tr>
+			<tr>
+				<td class="td">03.脸型清洁器&nbsp;#21.唇侧.切1/3.近中1/3</td>
+			</tr>
+            
+            <tr>
+				<td class="td">04.颈部左/右侧1.2mm深指示沟</td>
+			</tr>
+            
+            <tr>
+				<td class="td">05.磨平唇面指示沟间组织</td>
+			</tr>
+            
+            <tr>
+				<td class="td">06.磨平颈部指示沟间组织</td>
+			</tr>
+            
+            <tr>
+				<td class="td">07.打开左/右侧邻面</td>
+			</tr>
+            
+            <tr>
+				<td class="td">08.左/右邻面颈部预备至平齐龈缘处</td>
+			</tr>
+            
+            <tr>
+				<td class="td">09.舌隆突左侧1.0mm深指示沟</td>
+			</tr>
+            <tr>
+				<td class="td">10.舌隆突右侧1.0mm深指示沟1</td>
+			</tr>
+            <tr>
+				<td class="td">11.舌隆突右侧1.0mm深指示沟2</td>
+			</tr>
+            <tr>
+				<td class="td">12.舌面颈部预备至平齐龈缘处</td>
+			</tr>
+			<tr>
+				<td class="td">13.舌窝左/上/右侧1.0mm深指示沟</td>
+			</tr>
+            <tr>
+				<td class="td">14.磨平舌窝部指示沟间组织</td>
+			</tr>
+            <tr>
+				<td class="td">15.排龈，暴露0.5mm牙体组织</td>
+			</tr>
+            <tr>
+				<td class="td">16.精修</td>
+			</tr>
+            <tr>
+				<td>17.修整边缘</td>
+			</tr>
+            
+            
+            
+		</table>
+	</div>-->
+	<!--教学-->
+	<!--<div style="width: 291px;height:178px ;padding-top: 5px;text-align: center;
+		overflow: auto;scrollbar-dark-shadow-color:#222222">
+		<table class="tab">
+			<tr>
+				<td class="td"><strong>1.0切段预备</strong></td>
+			</tr>
+			<tr>
+				<td class="td"><a onclick="">1.1切端右侧约2.0mm深度指示沟</a></td>
+			</tr>
+			<tr>
+				<td class="td"><a onclick="">1.2切端左侧约2.0mm深度指示沟</a></td>
+			</tr>
+            
+            <tr>
+				<td class="td"><a onclick="">1.3磨平右侧牙体组织</a></td>
+			</tr>
+            
+            <tr>
+				<td class="td"><a onclick="">1.4磨平中间牙体组织</a></td>
+			</tr>
+            
+            <tr>
+				<td class="td"><a onclick="">1.5磨平左侧牙体组织</a></td>
+			</tr>
+            
+            <tr>
+				<td class="td"><strong>2.0唇面预备</strong></td>
+			</tr>
+            
+            <tr>
+				<td class="td"><a onclick="">2.1唇面右侧约1.0mm深度指示沟</a></td>
+			</tr>
+            
+            <tr>
+				<td class="td"><a onclick="">2.2唇面中间约1.0mm深度指示沟</a></td>
+			</tr>
+            <tr>
+				<td class="td"><a onclick="">2.3唇面左侧约1.0mm深度指示沟</a></td>
+			</tr>
+            <tr>
+				<td class="td"><a onclick="">2.4颈部右侧约1.2mm深度指示沟</a></td>
+			</tr>
+            <tr>
+				<td class="td"><a onclick="">2.5颈部左侧约1.2mm深度指示沟</a></td>
+			</tr>
+			<tr>
+				<td class="td"><a onclick="">2.6磨平唇面指示沟之间的组织</a></td>
+			</tr>
+            <tr>
+				<td class="td"><a onclick="">2.7磨平颈部指示沟之间的组织</a></td>
+			</tr>
+            <tr>
+				<td class="td"><strong>3.0邻面预备</strong></td>
+			</tr>
+            <tr>
+				<td class="td"><a onclick="">3.1打开右侧邻面</a></td>
+			</tr>
+			<tr>
+				<td class="td"><a onclick="">3.2打开左侧邻面</a></td>
+			</tr>
+			<tr>
+				<td class="td"><a onclick="">3.3右邻面颈部预备至平齐龈缘处</a></td>
+			</tr>
+			<tr>
+				<td class="td"><a onclick="">3.4左邻面颈部预备至平齐龈缘处</a></td>
+			</tr>
+			<tr>
+				<td class="td"><strong>4.0舌面预备</strong></td>
+			</tr>
+			<tr>
+				<td class="td"><a onclick="">4.1舌隆突左侧约1.0mm深度指示沟</a></td>
+			</tr>
+			<tr>
+				<td class="td"><a onclick="">4.2舌隆突右侧约1.0mm深度指示沟1</a></td>
+			</tr>
+			<tr>
+				<td class="td"><a onclick="">4.3舌隆突右侧约1.0mm深度指示沟2</a></td>
+			</tr>
+			<tr>
+				<td class="td"><a onclick="">4.4舌面颈部预备至平齐龈缘处</a></td>
+			</tr>
+			<tr>
+				<td class="td"><a onclick="">4.5舌窝左侧约1.0mm深度指示沟</a></td>
+			</tr>
+			<tr>
+				<td class="td"><a onclick="">4.6舌窝右侧约1.0mm深度指示沟</a></td>
+			</tr>
+			<tr>
+				<td class="td"><a onclick="">4.7舌窝上侧约1.0mm深度指示沟</a></td>
+			</tr>
+			<tr>
+				<td class="td"><a onclick="">4.8磨平舌窝部指示沟之间的组织</a></td>
+			</tr>
+			<tr>
+				<td class="td"><strong>5.0边缘修整</strong></td>
+			</tr>
+			<tr>
+				<td class="td"><a onclick="">5.1排龈，暴露0.5mm牙体组织</a></td>
+			</tr>
+			<tr>
+				<td class="td"><a onclick="">5.2唇面边缘预备至龈下0.5mm</a></td>
+			</tr>
+			<tr>
+				<td class="td"><a onclick="">5.3修整预备体龈边缘</a></td>
+			</tr>
+			<tr>
+				<td class="td"><strong >6.0精修完成</strong></td>
+			</tr>
+			<tr>
+				<td class="td"><a onclick="">6.1精修并抛光预备体</a></td>
+			</tr>
+			<tr>
+				<td class="td"><a onclick="">6.2边缘修整凿修整预备体边缘</a></td>
+			</tr>
+			<tr>
+				<td class="td"><a onclick="">6.3最终预备体</a></td>
+			</tr>
+            <tr>
+				<td><a onclick="">6.4PLANMECA扫描</a></td>
+			</tr>
+            
+            
+            
+		</table>
+	</div>-->
+	<!--考试-->
+	<div id="kaoshi" >
+		<div class="kaoshi">
+			<img style="margin-top: 35px;" src="img/牙.png" />
+		</div>
+		<div class="kaoshi">
+			100分
+		</div>
+		
+	</div>
+	</div>	
+	<div id="xia">
+		<div style="width: 50px;height: 30px;float: left;text-align: center;
+			line-height: 30px;color: white;font-size: 14px;font-family: "宋体';">记录
+		
+		</div>
+		<div style="width: 239px;height: 28px;float: left;border: 1px solid #282828;
+			background-color: #3a3a3a;">
+			<img style="float: right;margin-top: 10px;margin-right: 2px;" src="img/shouqi.png" />
+			<div style="width: 291px;height:178px ;padding-top: 5px;text-align: center;
+		overflow: auto;scrollbar-dark-shadow-color:#222222">
+		</div>
+	</div>	
+	<div style="width: 291px;height:178px ;padding-top: 5px;text-align: center;
+		overflow: auto;scrollbar-dark-shadow-color:#222222">
+		<table class="tab" style="min-height: 170px;">
+			<tr>
+				<td class="td"></td>
+			</tr>
+			<tr>
+				<td class="td"></td>
+			</tr>
+			<tr>
+				<td class="td"></td>
+			</tr>
+            
+            <tr>
+				<td class="td"></td>
+			</tr>
+            
+            <tr>
+				<td class="td"></td>
+			</tr>
+            
+            <tr>
+				<td class="td"></td>
+			</tr>
+			<tr>
+				<td class="td"></td>
+			</tr>
+            
+            <tr>
+				<td class="td"></td>
+			</tr>
+            
+            <tr>
+				<td class="td"></td>
+			</tr>
+            
+            <tr>
+				<td class="td"></td>
+			</tr>
+            
+            
+            <tr>
+				<td >&nbsp;</td>
+			</tr>
+			
+		</table>
+	</div>
+	</div>
+	</div>
+	
+
+	</body>
+</html>

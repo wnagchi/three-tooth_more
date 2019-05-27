@@ -1,0 +1,33 @@
+@charset "utf-8";
+/* CSS Document */
+
+body,img,ul,li,p,div,a{margin:0;padding:0;border:0;cursor:pointer; list-style:none; text-decoration:none;}
+button{outline:none;background:transparent;border:none;}
+.f,.l,.t,.a1,.a2,.foot{ border:none; background:none;z-index:3;}
+body{ width:100%; height:100%; background: url(../images/banckground.jpg);background-size:100%; background-color:#031f33; position:relative;}
+.body{ width:100%; height:100%; position:absolute; top:0; left:0; z-index:2;}
+.logo{ width:118px; height:70px; position:absolute; top:5%; left:5%;}
+.f{ width:40px; height:33px;position:absolute; top:80%; right:15%;}
+.l{ width:40px; height:33px;position:absolute; top:80%; right:10%;}
+.t{ width:40px; height:33px;position:absolute; top:80%; right:5%;}
+.color{ width:420px; height:28px; position:absolute; top:88%; right:3.5%;}
+.color_li{ width:50px; height:28px; margin-right:20px; float:left;}
+.foot{ width:100%; height:35px; background:#041c38; position:absolute;left:0;bottom:0;}
+.a1{ color:#FFF; font-size:18px; font-family:"微软雅黑"; float:right; line-height:35px; margin-right:65px;}
+.a2{ color:#FFF; font-size:18px; font-family:"微软雅黑"; float:right; line-height:35px; margin-right:40px;}
+@media screen and (max-width:1440px){
+}
+@media screen and (max-width:1366px){
+} 
+@media screen and (max-width:1280px){
+} 
+@media screen and (max-width:1024px){
+}
+@media screen and (max-width: 768px) {
+}
+@media screen and (max-width: 640px) {
+}
+@media screen and (max-width: 480px) {
+}
+@media screen and (max-width: 320px) {
+}

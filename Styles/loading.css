@@ -1,0 +1,31 @@
+@charset "utf-8";
+/* CSS Document */
+
+body,h1,h2,p,ul,li,dl,dt,dd,a,img,em{margin:0;padding:0;list-style:none;}
+img,input{border:0;}
+body{ width:100%; background:rgba(32,32,32, 0.8);}
+.main{ width:964px;margin:auto;position:relative; text-align:center;}
+.logo{ margin:150px 0 80px 0;}
+.p1{ font-family:"Î¢ÈíÑÅºÚ"; font-size:22px; color:#FFF; margin-bottom:15px;}
+.p2{ font-family:"Î¢ÈíÑÅºÚ"; font-size:12px; color:#FFF; margin-bottom:5px; text-decoration:blink;}
+@media screen and (max-width:1920px){
+	.main{ width:964px;margin:auto;position:relative; text-align:center;}
+	.logo{ margin:180px 0 100px 0;}
+}
+@media screen and (max-width:1440px){
+	.main{ width:964px;margin:auto;position:relative; text-align:center;}
+	.logo{ margin:150px 0 100px 0;}
+} 
+@media screen and (max-width:1366px){
+	.main{ width:964px;margin:auto 180px;position:relative; text-align:center;}
+	.logo{ width:419px; height:216px; margin:90px 0 100px 0;}
+}
+@media screen and (max-width:1280px){
+	.main{ width:964px;margin:auto 150px;position:relative; text-align:center;}
+	.logo{ width:439px; height:236px; margin:90px 0 100px 0;}
+}
+@media screen and (max-width:1080px){
+	.main{ width:964px;margin:auto 50px;position:relative; text-align:center;}
+	.logo{ width:352px; height:200px; margin:90px 0 100px 0;}
+	canvas{ width:900px; height:60px;}
+} 

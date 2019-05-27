@@ -1,0 +1,109 @@
+@charset "utf-8";
+body, h1, ul,h2,p,figure {
+    margin: 0;
+    padding: 0;
+}
+
+#header {
+    width: 100%;
+    height: 42px;
+    background-color: #535353;
+ 
+    z-index: 9999;
+}
+
+/*去掉小圆点*/
+ul {
+    list-style: outside none none;
+}
+
+#header .center {width: 100%;height: 42px;border:0;border-bottom:1px solid #000;
+		float: left;background-color: #535353;
+}
+
+
+
+#header .link li {
+    width: 100px;
+    text-align: center;
+    float: left;
+}
+
+#header .link{
+    /*background-color: red;*/
+    width: 650px;
+    height:42px;
+    line-height: 42px;
+    color: #eee;
+    float:left;
+}
+
+a{
+    text-decoration: none;
+}
+
+#header .link a{
+    color: #FFFFFF;
+    display: block;
+}
+
+#header .link a:hover,#header .active a{
+    background-color: #282828;
+}
+/*header---------------------------------end*/
+
+/*footer----------------------------------start*/
+#footer{
+    height: 360px;
+    background-color: #222;
+    clear: both;
+    position: relative;
+    top:20px;
+}
+
+#footer .top{
+    width:1263px;
+    height:281px;
+    /*background-color: red;*/
+    margin: 0 auto;
+    text-align: center;
+}
+
+#footer .block{
+    /*1263/3=410*/
+    width: 410px;
+    height: 280px;
+    text-align: left;
+    /*background-color: red;*/
+    display: inline-block;
+    color: #ccc;
+    vertical-align: top;
+}
+
+
+#footer h2{
+    font-size: 24px;
+    font-weight: normal;
+    padding: 20px 0 0 20px;
+}
+
+#footer hr{
+    width: 90%;
+    border:1px dashed #333;
+}
+
+#footer ul {
+    font-size: 18px;
+    color: #777;
+    text-indent:20px ;
+    line-height: 2;
+}
+
+#footer .bottom{
+    height:80px;
+    line-height: 80px;
+    text-align: center;
+    color: #777;
+    background-color:#000;
+    border-top: 1px solid #444;
+}

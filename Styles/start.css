@@ -1,0 +1,45 @@
+ *{
+     margin:0;
+     padding:0;
+    }
+	html,body{     /*body设置及界面背景*/
+	    width:100%;
+	    height:100%;
+	    list-style:none;
+		background:url("../images/start_bg.jpg") center center;
+		background-size:cover;	
+	}
+	input{      /*字体设置*/
+	     font-size:22px;
+	     color:#FFF;
+	}
+	input:nth-child(-n+2){  /*上面两个按钮大小设置*/
+	     width:15%;
+	     height:9%; 
+	}
+	.top_left{           /*左侧按钮背景及位置*/
+	     position:absolute;
+	     left:25%;
+	     top:30%;
+	     background:url("../images/top_left.png") center center;
+	     background-size:cover;
+	     border:0px;
+	     }
+	.top_right{            /*右侧按钮背景及位置*/
+	     position:absolute;
+	     right:25%;
+	     top:30%;
+	     background:url("../images/top_right.png") center center;
+	     background-size:cover;
+	     border:0px;
+	}
+	a .buttom{      /*下部按钮背景及位置*/
+	     width:24%;
+	     height:9%;
+	     position:absolute;
+	     right:38%;
+	     top:55%;
+	     background:url("../images/bottom.png") center center;
+	     background-size:cover;
+	     border:0px;
+	}

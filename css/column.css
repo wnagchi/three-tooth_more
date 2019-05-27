@@ -1,0 +1,133 @@
+@charset "utf-8";
+
+#headline{
+    width: 100%;
+    min-width: 1263px;
+    height: 300px;
+    background: linear-gradient(to right bottom,rgba(0,0,0,0.7),rgba(0,0,0,0)),url("../img/headline.jpg") no-repeat center;
+}
+
+#headline .center{
+    width: 1263px;
+    height: 300px;
+    margin: 0 auto;
+}
+
+#headline hgroup{
+    padding:100px 0 0 50px;
+}
+
+#headline h2{
+    color: #eee;
+    font-size: 36px;
+    letter-spacing: 1px;
+}
+
+#headline h3{
+    color: #eee;
+    font-size: 20px;
+    letter-spacing: 1px;
+}
+
+#container {
+    width: 1263px;
+    /*height: 1200px;*/
+    margin: 30px auto;
+
+}
+
+#container .sidbar{
+    /*1263的30%=320px*/
+    width: 340px;
+    /*height: 1200px;*/
+    /*background-color: #eee;*/
+    float: right;
+}
+
+#container .sidebox{
+    border: 1px solid #eee;
+    margin: 0 0 10px 0;
+    text-align: center;
+}
+
+#container .sidebox h2{
+    font-size: 20px;
+    font-style: normal;
+    color: #666;
+    letter-spacing: 1px;
+    text-indent: 8px;
+    height: 40px;
+    line-height: 40px;
+    background-color: #fafafa;
+    text-align: left;
+}
+
+#container .tag{
+    padding:10px 0;
+}
+
+#container .tag a{
+    /*a是内联是不能设置高度以及宽度,一定要转换为内联块*/
+    display: inline-block;
+    width: 100px;
+    height: 35px;
+    line-height: 35px;
+    margin: 2px 0;
+    background-color: #eee;
+    text-align: left;
+    text-indent: 8px;
+    color: #999;
+}
+
+#container .tag a:hover{
+    background-color: #458b00;
+    color: #fff;
+}
+
+#container .figure{
+padding: 10px 0;
+}
+
+#container figure{
+    display: inline-block;
+    padding: 4px;
+    color: #666;
+}
+
+#container .box{
+    padding:10px 0;
+}
+
+#container .box a{
+    /*a是内联是不能设置高度以及宽度,一定要转换为内联块*/
+    display: inline-block;
+    width: 150px;
+    height: 40px;
+    line-height: 40px;
+    margin: 2px 0;
+    background-color: #eee;
+    text-align: left;
+    text-indent: 35px;
+    color: #999;
+}
+
+
+#container .box a.trea1{
+     background: #eee url("../img/trea1.png") no-repeat 10px center;
+ }
+#container .box a.trea2{
+    background: #eee url("../img/trea2.png") no-repeat 10px center;
+}
+#container .box a.trea3{
+    background: #eee url("../img/trea3.png") no-repeat 10px center;
+}
+#container .box a.trea4{
+    background: #eee url("../img/trea4.png") no-repeat 10px center;
+}
+
+#container .list{
+    width: 900px;
+    /*height: 1200px;*/
+    background-color: #ccc;
+    float: left;
+}

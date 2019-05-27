@@ -1,0 +1,49 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<SysMode>
+  <init CameraX="0"  CameraY="10"  CameraZ="500" bgcolor="0x000000" bgImage="" skyBox="false" skyBoxSize="100" skyBox1="mode/posx.jpg" skyBox2="mode/negx.jpg" skyBox3="mode/posy.jpg" skyBox4="mode/negy.jpg" skyBox5="mode/posz.jpg" skyBox6="mode/negz.jpg">init</init>
+  <Scene x="0" y="-0" z="0" Rx="0" Ry="0" Rz="0"  SW="1" SH="1" SD="1" CtrlMin_X="-1"  CtrlMax_X="-1"  CtrlMin_Y="-1"  CtrlMax_Y="-1"  CtrlMin_Z="300"  CtrlMax_Z="20000">Scene</Scene>
+  <Material color="0xffffff" ambient="0x808080" emissive="0xdfd2cc" specular="0x111111" shininess="30" perPixel="true" skinning="false" Alpha="1" DoubleSide="2" img="mode/cannon/草地.jpg" envMap="false" reflectivity="1" refractionRatio="0.98">code_init</Material>
+  <!--<Pic x="0" y="0" z="0" Rx="0" Ry="0" Rz="0" DW="150" DH="120" DD="35" iw="1" ih="1"  img="mode/upcera/c_back.png" codenum="code_0003" renderDepth="null" >FLoor_1</Pic>-->
+
+  <!--<Wall x="0" y="100" z="100" Rx="0" Ry="0" Rz="0" DW="500" DH="300" DD="200" img="mode/upcera/ping.jpg"  iw="1" ih="1" codenum="code_0002" renderDepth="5" >Wall_1</Wall>-->
+  <!--<Mode x="0" y="0" z="0" Rx="0" Ry="90" Rz="0" SW="1" SH="1" SD="1" mm="1" hw="0" fire="0" weight="2" Ltype="2" img="mode/upcera/洗手台.jpg" url="mode/face/eyes.zlf" codenum="code_0004" renderDepth="1" castShadow="true" Reflective="false" ReflectiveAlpha="0.1">t_face</Mode>-->
+
+  <Mode x="0" y="0" z="0" Rx="120" Ry="0" Rz="0" SW="1" SH="1" SD="1" mm="1" hw="0" fire="0" weight="2" Ltype="2" img="mode/face/脸.jpg" url="mode/face/脸.zlf" codenum="code_0004" renderDepth="1" castShadow="true" Reflective="false" ReflectiveAlpha="0.1">t_face</Mode>
+  <Mode x="33" y="15" z="43" Rx="100" Ry="0" Rz="0" SW="1.25" SH="1.1" SD="1.1" mm="1" hw="0" fire="0" weight="2" Ltype="2" img="mode/face/眼球.jpg" url="mode/face/眼球.zlf" codenum="code_0003" renderDepth="1" castShadow="true" Reflective="false" ReflectiveAlpha="0.1">t_eyes1</Mode>
+  <Mode x="-32" y="15" z="43" Rx="100" Ry="0" Rz="0" SW="1.25" SH="1.1" SD="1.1" mm="1" hw="0" fire="0" weight="2" Ltype="2" img="mode/face/眼球.jpg" url="mode/face/眼球.zlf" codenum="code_0003" renderDepth="1" castShadow="true" Reflective="false" ReflectiveAlpha="0.1">t_eyes2</Mode>
+
+  <Light x="0" y="0" z="0" color="0xcccccc"  type="AmbientLight">Light_1</Light>
+  <!--<Light x="0" y="0" z="440"  color="0xffffff"  inten="1.25" showbox="0" distance="800" type="PointLight">Light_4</Light>-->
+  <!--<Light x="0" y="500" z="500"  color="0x808080"  inten="1" type="DirectionLight">Light_2</Light>-->
+  <!--<Light x="50" y="200" z="-100"  color="0xdfebff"  inten="1" type="DirectionLight">Light_2</Light>-->
+  <!--<Light x="1" y="-0.5" z="-1"  color="0xffffff"  inten="1" type="DirectionLight">Light_2</Light>-->
+  <Light x="-1" y="1" z="1"  color="0xffffff"  inten="1" type="DirectionLight">Light_2</Light>
+  <!--<Mode x="0" y="0" z="0" Rx="0" Ry="90" Rz="0" SW="1" SH="1" SD="1" mm="1" hw="0" fire="0" weight="2" Ltype="2" img="pump/pump_metalreflect.jpg" url="mode/test/内测1.zlf" codenum="code_0001" renderDepth="1" castShadow="true" Reflective="false" ReflectiveAlpha="0.1">t1</Mode>-->
+  <!--<Mode x="-20" y="0" z="0" Rx="0" Ry="90" Rz="0" SW="1" SH="1" SD="1" mm="1" hw="0" fire="0" weight="2" Ltype="2" img="mode/test/内测1.jpg" url="mode/test/022.zlf" codenum="code_0001" renderDepth="1" castShadow="true" Reflective="false" ReflectiveAlpha="0.1">t2</Mode>-->
+  <!--<Mode x="20" y="0" z="0" Rx="0" Ry="90" Rz="0" SW="1" SH="1" SD="1" mm="1" hw="0" fire="0" weight="2" Ltype="2" img="mode/test/内测1.jpg" url="mode/test/023.zlf" codenum="code_0001" renderDepth="1" castShadow="true" Reflective="false" ReflectiveAlpha="0.1">t3</Mode>-->
+
+
+  <Material color="0xb3ac9f" ambient="0xb3ac9f" emissive="0xb3ac9f" specular="0xb3ac9f" shininess="10" perPixel="false" skinning="false" Alpha="1" DoubleSide="2" img="mode/dibanq.jpg" envMap="false" reflectivity="0.1" refractionRatio="0.98">code_0001</Material>
+  <Material color="0x808080" ambient="0x808080" emissive="0x808080" specular="0x808080" shininess="30" perPixel="false" skinning="false" Alpha="1" DoubleSide="2" img="" envMap="false" reflectivity="1" refractionRatio="0.5">code_0002</Material>
+  <Material color="0xcecdcd" ambient="0x000000" emissive="0x000000" specular="0x6f6f6f" shininess="5" perPixel="false" skinning="false" Alpha="1" DoubleSide="2" img="mode/negx.jpg" envMap="false" reflectivity="1" refractionRatio="0.9">code_0003</Material>
+  <Material color="0xf1c4ad" ambient="0xf1c4ad" emissive="0xa6826f" specular="0xf1c4ad" shininess="30" perPixel="false" skinning="false" Alpha="1" DoubleSide="2" img="mode/dibanq.jpg" envMap="false" reflectivity="0.3" refractionRatio="0.98">code_0004</Material>
+  <Material color="0xc1ae44" ambient="0xc1ae44" emissive="0xc1ae44" specular="0xc1ae44" shininess="30" perPixel="false" skinning="false" Alpha="1" DoubleSide="2" img="mode/dibanq.jpg" envMap="false" reflectivity="1" refractionRatio="0.98">code_0005</Material>
+  <Material color="0x40423f" ambient="0x40423f" emissive="0x40423f" specular="0x40423f" shininess="30" perPixel="false" skinning="false" Alpha="1" DoubleSide="2" img="mode/dibanq.jpg" envMap="false" reflectivity="1" refractionRatio="0.98">code_0006</Material>
+  <Material color="0x553c07" ambient="0x553c07" emissive="0x553c07" specular="0x553c07" shininess="30" perPixel="false" skinning="false" Alpha="1" DoubleSide="2" img="mode/dibanq.jpg" envMap="false" reflectivity="1" refractionRatio="0.98">code_0007</Material>
+
+  <Material color="0x676767" ambient="0x676767" emissive="0x676767" specular="0x676767" shininess="30" perPixel="false" skinning="false" Alpha="1" DoubleSide="2" img="mode/dibanq.jpg" envMap="false" reflectivity="1" refractionRatio="0.98">code_0008</Material>
+  <Material color="0x676767" ambient="0x676767" emissive="0x676767" specular="0x676767" shininess="30" perPixel="false" skinning="false" Alpha="1" DoubleSide="2" img="mode/dibanq.jpg" envMap="true" reflectivity="1" refractionRatio="0.98">code_0010</Material>
+
+  <!--<Psarticle x="0" y="0" z="0" Rx="0" Ry="0" Rz="0" velx="0" vely="12" velz="0" tpx="30" tpy="0" tpz="30" img="mode/negx.jpg" size="10" count="5" dpx="30" dpy="200" dpz="30" color="0xffff00" transparent="true" Alpha="1" ptype="96">Psarticle_15</Psarticle>-->
+  <!--<Psarticle x="-50" y="-100" z="-50" Rx="-0" Ry="0" Rz="0" velx="0" vely="1" velz="0" tpx="130" tpy="200" tpz="130" img="mode/1-4.png" size="10" count="1000" dpx="180" dpy="330" dpz="180" color="0xff0000" transparent="true" Alpha="1" ptype="2">Psarticle_0</Psarticle>-->
+  <!--<Animation  type=".position" times="0, 1, 15" values="0, 0, 0, 0, 100, 0, 0, 0, 0" Direction="">t_chair_11</Animation>-->
+  <!--<Animation  type=".scale" times="0, 1, 5" values="1, 1, 1, 3,3, 3, 1, 1, 1" Direction="">t_chair_11</Animation>--><!--缩放--><!--
+  <Animation  type=".material.color" times="0, 1, 15" values="255, 0, 0, 255, 1, 0, 0, 0, 1" Direction="">t_chair_11</Animation>  --><!--颜色--><!--
+  --><!--<Animation  type=".material.opacity" times="0, 1, 15" values="1, 0, 1" Direction="">t_chair_11</Animation>  --><!--透明度--><!--
+  <Animation  type=".quaternion" times="0,1,2,2.0001,3,4" values="0,180,360,0,180,360" Direction="0,1,0">t_chair_11</Animation>  --><!--旋转--><!--
+  <Animation  type=".position" times="0, 2, 3" values="-20, 0, 0, -200, 100, 0, -20, 0, 0" Direction="">t2</Animation>  --><!--位置--><!--
+  <Animation  type=".position" times="4, 5, 6" values="-20, 0, 0, 200, 100, 0, -20, 0, 0" Direction="">t2</Animation>-->
+ <Animation  type=".quaternion" times="0,1,2,5,6,7" values="0,20,0,0,-20,0" Direction="0,1,0">t_eyes1</Animation>
+  <Animation  type=".quaternion" times="0,1,2,5,6,7" values="0,20,0,0,-20,0" Direction="0,1,0">t_eyes2</Animation>
+  <Animation  type=".quaternion" times="0,1,2,5,6,7" values="0,2,0,0,-2,0" Direction="0,1,0">t_face</Animation>
+</SysMode>

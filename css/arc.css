@@ -1,0 +1,222 @@
+body{margin: 0px;
+padding: 0px;background-color: #191919;font-family: '宋体';}
+.ul{display: inline; float: left;list-style: none;margin: 0px;padding: 0px;
+font-family: "宋体";font-size: 14px;color: white;}
+.ul1{display: inline;
+     float: left;
+     list-style: none;
+     margin: 0px;
+     padding: 0px;
+     font-family: "宋体";
+     font-size: 14px;
+     color: white;
+     width: 291px;
+     height: 30px;
+     line-height:30px;}
+.li{width: 100px;
+    height: 42px;
+    line-height: 42px;
+    text-align: center;
+    border-right: #282828 1px solid;
+    float: left;
+    display: block;
+}
+.li1{line-height: 30px;
+     text-align: center;
+     float: left;
+     display: inline;
+     border-right: #282828 solid 1px;
+     }
+.li2{width:34px;height: 34px;float: left;display: inline;margin-left: 6px;
+text-align: center;vertical-align: middle;}
+a{text-decoration: none;}
+#dh a:hover{background: url(../img/daohang_01.png);text-decoration:none;}
+#zuo{width: 38px;height: 90%;float: left;background-color: #535353;padding: 5px 2px 0px 2px;
+position: absolute;top: 43px;left: 0px;min-height:2000px;z-index: 10;}
+#zuo a:hover{background-image: url(../img/zuo_03.png);}
+
+.a{width: 100px;height: 42px;
+   display: flex;
+    display: block;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    text-decoration: none;
+    display: block;
+    float: left;}
+.a11{width: 38px;height: 38px;
+   
+    display: block;
+    justify-content: center;
+    align-items: center;
+    text-decoration: none;
+    display: block;
+    float: left;
+    margin-top: 4px;}
+.a21{width: 50px;height: 30px;
+   display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    text-decoration: none;
+    display: block;
+    float: left;}    
+.tz{width: 191px;height: 80px;background-image: url(../img/tiaozheng_07.png) ;
+    background-position: center;background-repeat: no-repeat;margin-left: 25px;
+    margin-top: 540px;font-family: '微软雅黑';font-size: 18px;color: white;font-weight: bold;
+    padding: 18px;line-height: 24px;}
+.tz1{width: 53px;height: 45px;background-image: url(../img/shang_03.png);
+     position: relative;right: -235px;top: -150px;padding-top: 6px;padding-left: 15px;} 
+#tz2{width: 130px;height:45px;background-image: url(../img/tzx_06.png);background-position: center;
+     position: relative;right: -235px;top: -70px;background-repeat: no-repeat;text-align: left;
+     padding-top: 2px;}  
+#tz2 a{display: block;}
+#tz2 a:hover{background-image: url(../img/fangkuai_03.png);}
+#tz2 a:active{color: white;text-decoration: none;}
+#tz2 a:link{color: white; text-decoration:none;}
+      
+    
+#dh{width: 100%;height: 42px;border:0;border-bottom:1px solid #000;
+		float: left;background-color: #535353;position:absolute ;top: 0px;z-index: 10;}
+#sh a{display: block;}
+#sh a:hover{background-color: #535353;}
+#sh a:active{color: white;text-decoration: none;}
+#sh a:link{color: white; text-decoration:none;}
+.dibu{width: 100%;height: 40px;position:absolute;
+bottom:0;background-color: #535353;border-top: #191919 solid 1px;z-index: 11;}
+#sh{width: 291px;height: 33%;bottom:0;background-color: #535353;border-top: #282828 solid 1px;border-bottom: #282828 solid 1px;float: left;color: white;font-size: 14px;}
+.sh{width: 125px;height: 85px;padding: 10px;float: left;text-align: center;vertical-align: middle;}
+.sh1{width: 125px;height: 85px;padding: 10px;float: left;text-align: center;vertical-align: middle;}
+.sh2{width: 52px;height: 32px;padding: 5px;float: left;text-align: center;vertical-align: middle;}
+#zh{width: 291px;height: 33%;bottom:0;background-color: #535353;border-top: #282828 solid 1px;border-bottom: #282828 solid 1px;float: left;color: white;font-size: 14px;}
+#zh a{display: block;}
+/*#zh a:hover{background-color: #535353;}
+#zh a:active{color: white;text-decoration: none;}
+#zh a:link{color: white; text-decoration:none;}*/
+
+#xia{width: 291px;
+     height: 34%;
+     bottom:0;
+     background-color: #535353;
+     border-top: #282828 solid 1px;
+     
+     float: left;
+     color: white;
+     font-size: 14px;
+     min-height: 400px;}
+.tab{border: 1px #363636 solid;
+     width: 95%;
+     height: 95%;
+     color: white;
+     font-family: "宋体";
+     font-size: 14px;
+     text-align: left;
+     float: left;
+     margin: 5px 5px 0px 7px;
+     padding: 0;
+     overflow: auto;}
+.tab1{border: 1px #363636 solid;
+      width: 95%;
+      height: 85%;
+      color: white;
+      font-family: "宋体";
+      font-size: 14px;
+      text-align: left;
+      float: left;
+      margin: 5px 5px 0px 5px;
+      padding: 0;
+      overflow: auto;}
+.td{width: 100%;height: 20px;line-height: 20px;border-bottom: 1px #363636 solid;}
+.td1{width: 50%;height: 100%;text-align: center;vertical-align: middle;}
+::-webkit-scrollbar {
+		  width: 16px;
+	} /* 这是针对缺省样式 (必须的) */
+::-webkit-scrollbar-track {
+		  background-color: #222222;
+	} /* 滚动条的滑轨背景颜色 */
+
+	::-webkit-scrollbar-thumb {
+		  background-color:#b8b8b8; 
+	} /* 滑块颜色 */
+
+	
+
+	::-webkit-scrollbar-corner {
+		  background-color:#222222;
+	} /* 横向滚动条和纵向滚动条相交处尖角的颜色 */
+#kaoshi{width: 281px;height: 200px;padding: 10px;}	
+.kaoshi{width: 140px;height: 200px;text-align: center;float: left;vertical-align: middle; font-family: "微软雅黑";font-size: 24px;}
+.kaoshi1{width: 140px;height: 112px;text-align: center;float: left;vertical-align: middle; font-family: "微软雅黑";font-size: 24px; padding-top: 88px;}
+.btn   li,  
+        li a {  
+            text-decoration: none;  
+            list-style-type: none;  
+            font-family: "宋体";  
+            font-size: 14px;  
+            color: #FFFFFF;
+            text-align: center; 
+            
+        }  
+          
+        .btn1 {  
+            display: block;  
+           
+            width: 100px;  
+            height: 42px;  
+            text-align: center;  
+            line-height: 42px;  
+        }  
+          
+    .btn    ul {  
+            margin-top: 1px;  
+            position: absolute; /*设置绝对定位，宽度为内容宽度*/  
+            left: -999em;   /*设置隐藏*/  
+            padding: 0;  /*离它的父元素的边界为0，所以可以位于父元素li的正下方*/  
+        }  
+          
+    .btn    ul li a {  
+            display: inline-block;  /*菜单项宽度未知，设置inline－block宽度为内容宽度*/  
+           background-color:#535353 ;
+            height: 42px;  
+            padding: 0 10px;  
+            line-height: 42px;
+            width: 80px;  
+        }  
+          
+        .last {  
+            border-bottom: 1px solid #282828;  
+        }  
+          
+        .btn:hover ul {  
+            left: auto; /*默认ul的padding为0，位于按钮正下方*/  
+        }  
+          
+  .btn      ul li a:hover {  
+            background-color: #ddd;  
+        }  
+        .btn{  
+            display: inline-block;
+            border-right: #282828 1px solid; /*设置btn是inline－block，  
+            默认宽度为内容宽度，则鼠标只会在hover到按钮区域时才会展开下拉菜单*/  
+        } 
+    #youce{width: 30px; 
+		height: 100%;
+		border: 1px solid #191919;
+		
+		background-color: #535353;
+		float: left;
+		min-height: 2000px;
+		
+		margin: 0px;
+		padding: 4px;
+		position: relative;}      
+#youce a{display: block;}
+#youce a:hover{background-color: #3a3a3a;}
+#youce a:active{color: white;text-decoration: none;}
+#youce a:link{color: white; text-decoration:none;} 
+    
+.tds{line-height: 28px;text-align: center;float: left;
+display: inline;border-right: #282828 solid 1px;
+width: 50px;height: 28px;margin-top: -3px;}  
+#selec a:hover{background: transparent }    
+      

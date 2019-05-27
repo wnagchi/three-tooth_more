@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="zh-cn">
+<head>
+  <meta charset="UTF-8">
+  <title>Document</title>
+  <style>
+    body {
+      margin: 0;
+    }
+    ul {
+      margin: 0;
+      padding: 0;
+      list-style-type: none;
+      overflow: hidden;
+      background-color: #535353;
+    }
+    ul > li {
+      float: left;
+      width: 100px;
+      height: 40px;
+      text-align: center;
+      line-height: 40px;
+    }
+    ul a {
+      display: block;
+      
+      color: #fff;
+      text-decoration: none;
+    }
+    .dropdown {
+      display: inline-block;
+      position: absolute;  /*此容器如果相对定位的话，不显示下拉内容。设成绝对定位或不定位就可以，不知道原因。*/
+    }
+    .dropdown-content {
+      display: none;
+      position: absolute;
+      min-width: 100px;
+    }
+    .dropdown-content a {
+      background-color: #535353;
+      color: #FFFFFF;
+    }
+    .dropdown-content a:hover {
+      background-color: #282828;
+    }
+    .dropdown:hover .dropdown-content {
+      display: block;
+    }
+    ul > li:hover {
+      background-color: #282828;
+    }
+  </style>
+</head>
+<body>
+  <ul>
+    <li><a href="#">主页</a></li>
+    <li><a href="#">链接1</a></li>
+    <li><a href="#">test</a></li>
+    <li class="dropdown">
+      <a class="dropdown-btn" href="#">aaa</a>
+      <div class="dropdown-content">
+        <a href="#">1123</a>
+        <a href="#">我的</a>
+        <a href="#">链接</a>
+      </div>
+    </li>
+  </ul>
+</body>
+</html>
